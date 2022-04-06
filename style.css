@@ -1,17 +1,44 @@
 	body{
-		background-color: #FFAFC0;
+		background-image: url("backround.png");;
 	}
 
 	h1{
 		color: #FF2654;
-		font-size: 75px;
+		font-size: 80px;
 		font-family: "Crimson Pro", serif;
 		font-weight: 900;
 		text-align: center;
+		padding-right: 100px;
+
 	}
 
-	#primates{
+	li {
+		display: inline-block;
+		list-style: none;
+		padding-right: 100px;
+		padding-left: 180px;
 	}
+
+	a {
+		color: #000000;
+		text-decoration: none;
+		font-size: 30px;
+	}
+
+	a:hover {
+		color: #FF5277;
+	}
+
+	img#home {
+		float: left;
+		padding-left: 50px;
+	}
+
+	img#primates {
+		
+	}
+
+
 
 	#FF2654
 	#FF5277
