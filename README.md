@@ -1,1 +1,1 @@
-# Monkeys
+# Primates
