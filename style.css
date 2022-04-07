@@ -1,5 +1,5 @@
 	body{
-		background-image: url("backround.png");;
+		background-image: url("background.png");;
 	}
 
 	h1{
@@ -8,15 +8,17 @@
 		font-family: "Crimson Pro", serif;
 		font-weight: 900;
 		text-align: center;
-		padding-right: 100px;
-
+		padding-right: 45px;
+		margin-top: 15px;
+		margin-bottom: 35px;
 	}
 
 	li {
 		display: inline-block;
 		list-style: none;
 		padding-right: 100px;
-		padding-left: 180px;
+		padding-left: 190px;
+		margin-bottom: 25px;
 	}
 
 	a {
@@ -29,16 +31,31 @@
 		color: #FF5277;
 	}
 
-	img#home {
-		float: left;
-		padding-left: 50px;
+	.home{
+  		width: 50px;
+  		float: left;
+		padding-left: 25px;
+		margin-top: 20px;
+		background: url('home.png') no-repeat;
+  		background-size: contain;
+  		position: relative;
 	}
 
-	img#primates {
-		
+	.home:hover {
+  		width: 50px;
+  		float: left;
+		padding-left: 25px;
+		margin-top: 20px;
+		background: url("life.png") no-repeat;
+  		background-size: contain;
+  		position: relative;
 	}
 
-
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 	#FF2654
 	#FF5277
