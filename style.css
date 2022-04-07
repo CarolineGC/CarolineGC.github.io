@@ -2,7 +2,16 @@
 		background-image: url("background.png");;
 	}
 
-	h1{
+	p  {
+		font-family: "Crimson Pro", serif;
+		font-weight: 300;
+		font-size: 30px;
+		color: #000000;
+		text-align: center;
+		margin-top: 5px;
+	}
+
+	h1 {
 		color: #FF2654;
 		font-size: 80px;
 		font-family: "Crimson Pro", serif;
@@ -16,7 +25,7 @@
 	h2 {
 		float: left;
 		margin-top: 160px;
-		margin-left: 30px;
+		margin-left: 20px;
 		font-size: 75px;
 		color: #FF2654;
 	}
@@ -24,7 +33,7 @@
 	h3 {
 		float: left;
 		margin-top: 160px;
-		margin-left: 30px;
+		margin-left: 20px;
 		font-size: 60px;
 		color: #FF2654;
 	}
@@ -32,7 +41,7 @@
 	h4 {
 		float: left;
 		margin-top: 230px;
-		margin-left: -300px;
+		margin-left: -303px;
 		font-size: 60px;
 		color: #FF2654;
 	}
@@ -43,6 +52,8 @@
 		padding-right: 100px;
 		padding-left: 190px;
 		margin-bottom: 25px;
+		font-family: "Crimson Pro", serif;
+		font-weight: 500;
 	}
 
 	a {
@@ -60,6 +71,7 @@
   		float: left;
 		padding-left: 25px;
 		margin-top: 20px;
+
 		background: url('home.png') no-repeat;
   		background-size: contain;
   		position: relative;
@@ -70,14 +82,15 @@
   		float: left;
 		padding-left: 25px;
 		margin-top: 20px;
-		background: url("life.png") no-repeat;
+
+		background: url("home2.png") no-repeat;
   		background-size: contain;
   		position: relative;
 	}
 
 	.center {
 		display: block;
-		margin-left: 415px;
+		margin-left: 375px;
 		margin-right: auto;
 		border-color: #FF2654;
 		border-width: 10px;
